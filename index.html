@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Basic SEO -->
+    <title>Portfolio | Neha Reddy Gaddam </title>
+    <link rel="shortcut icon" href="./images/portfolio_favicon.png" type="image/x-icon">
+    <meta name="description"
+        content="Front-end developer skilled in HTML, CSS, Bootstrap & JavaScript, building fast, responsive, SEO-friendly websites." />
+    <meta name="author" content="Neha Reddy Gaddam" />
+    <meta name="keywords" content="portfolio, ui/ux portfolio, web portfolio, web developer portfolio, personal portfolio, "/>
+
+    <!-- Website Design -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Robots (Search Indexing) -->
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#14A76C" >
+
+</head>
+
+<body>
+    <header class="container-fluid px-md-5 shadow border-bottom">
+        <nav class="nav navbar navbar-expand-lg py-md-3 px-md-5" aria-label=" navbar example">
+            <div class="container-fluid">
+                <a
+                    class="navbar-brand fs-4 d-flex align-items-center  mb-md-0 me-md-auto link-body-emphasis text-decoration-none"><img
+                        src="./images/node-js_logo.svg" alt="JS_logo" /> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex py-4 py-lg-0" id="navbarsExample11">
+                    <ul class="navbar-nav col-lg-12 justify-content-lg-end nav-pills nav-underline">
+                        <li class="nav-item"> <a class="nav-link active text-white px-3 py-2 fw-bold"
+                                style="background-color: #14A76C;" aria-current="page"
+                                href="1234">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link px-3 py-2 fw-bold text-black" href="#about">About</a>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link px-3 py-2 fw-bold text-black"
+                                href="#experience">Experience</a> </li>
+                        <li class="nav-item"> <a class="nav-link px-3 py-2 fw-bold text-black" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link px-3 py-2 fw-bold text-black"
+                                href="#projects">Projects</a> </li>
+                        <li class="nav-item"> <a class="nav-link px-3 py-2 fw-bold text-black"
+                                href="#contact">Contact</a> </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-fluid p-lg-5 bg-light">
+            <div class="px-lg-5 py-3mb-4 rounded-3">
+                <div class="px-lg-4 py-lg-5 text-center">
+                    <div class="row align-items-center g-lg-5">
+                        <div class="col-md-8 mx-auto col-lg-4">
+                            <img src="./images/neha-img.jpeg" class="img-fluid rounded-5 rounded"
+                                fetchpriority="high" loading='lazy' alt="Developer Image" />
+                        </div>
+                        <div class="col-md-7 text-center text-lg-start ">
+                            <div class="container-fluid py-5 text-start">
+                                <h1 class="display-5 fw-bold">Hi There,</h1>
+                                <h2 class="display-5 fw-bold">I'm <span style="color: #14A76C;" id="fullName"></span>
+                                </h2>
+                                <p class="col-md-12 fs-5 text-black">
+                                    Full-stack engineer specializing in scalable microservices and enterprise solutions. 
+                                    I've architected systems processing millions of daily transactions at American Express and Prudential, 
+                                    working on high-performance distributed architectures. 
+                                    Currently building seamless user experiences that blend robust backend engineering with modern frontend design.
+                                </p>
+                                <button class="btn btn-lg text-white icon-link icon-link-hover" type="button"
+                                    style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                                    onclick="scrollToOptions('about')">About
+                                    Me <img src="./images/box-arrow_about_me.svg" width="22" height="22" class="bi"
+                                        alt="Navigate About me" /></button>
+                                <ul class="nav flex-row py-3">
+                                    <li class="ms-3">
+                                        <a href="https://github.com/NehaReddy77" target="_blank"><img
+                                                src="./images/github_logo.svg" alt="Github Logo" srcset="" width="40"
+                                                height="35" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="GitHub"></a>
+                                    </li>
+                                    <li class="ms-3">
+                                        <a href="https://www.linkedin.com/in/nehary11/"
+                                            target="_blank"><img src="./images/linkedin_logo.svg" alt="Linkedin Logo"
+                                                srcset="" width="35" height="35" data-bs-toggle="tooltip"
+                                                data-bs-placement="bottom" title="Linkedin"></a>
+                                    </li>
+                                    <li class="ms-3">
+                                        <a href="https://leetcode.com/u/Nehareddygaddam/" target="_blank"><img
+                                                src="./images/leetcode_logo.svg" alt="LeetCode Logo" srcset=""
+                                                width="35" height="35" data-bs-toggle="tooltip"
+                                                data-bs-placement="bottom" data-bs-title="LeetCode"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="container-fluid">
+            <div class="text-black px-2">
+                <div class="py-5">
+                    <h2 class="display-5 fw-bold text-black text-center">About <span style="color: #14A76C;">Me</span>
+                    </h2>
+                    <div class="col-md-10 mx-auto">
+                        <div class="row align-items-center g-lg-5">
+                            <div class="col-md-6 text-center text-lg-start">
+                                <img src="./images/Hello.avif" class="card-img-top" alt="About Me" />
+                            </div>
+                            <div class="col-md-6 mx-auto col-lg-6">
+                                <h3 class="text-black fw-semibold">I'm Neha</h3>
+                                <p class="fw-bold fs-5 text-black">Full Stack Developer</p>
+                                <p class="fs-5 mb-4">I am a Full-Stack developer based out of Austin, Texas. I am currently working as a Software Developer at American Express.
+                                    I hold a Master's degree in Computer Science from Syracuse University, NY. 
+                                    I am in search of my next oppurtuninty.</p>
+                                <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Email :
+                                    </span>nehareddy315@gmail.com
+                                </p>
+                                <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Place :
+                                    </span>Austin, TX
+                                </p>
+                                <form method="get" action="./NehaGaddam-Resume-copy1.pdf" target="_blank">
+                                    <button class="btn btn-lg text-white icon-link icon-link-hover" type="submit"
+                                        style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);">Download
+                                        CV <img src="./images/download_fill_logo.svg" alt="Resume Download" width="22"
+                                            class="bi" height="22" /></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section id="experience">
+            <div class="text-secondary px-4  ">
+                <div class="py-lg-5 py-5">
+                    <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;"> Experience
+                        </span>
+                    </h2>
+
+                    <div class="col-md-8 mx-auto py-lg-5">
+
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="accordion px-0" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            <div><strong class="d-block fw-bold fs-5">Frontend Developer | <span
+                                                        class="fw-bold fs-6"> Hivespace </span><a
+                                                        href="https://hivespace.in/" target="_blank"
+                                                        aria-label="hivespace navigation"><img
+                                                            src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
+                                                            srcset=""></a></strong>
+                                                <span> Kondapur, Telangana </span>
+                                                <small
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">June
+                                                    2024 - October 2025</small>
+                                            </div>
+                                        </button>
+                                    </h3>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Developed and maintained multiple websites using
+                                                    <strong>WordPress</strong>, ensuring mobile responsiveness and
+                                                    performance.
+                                                </li>
+                                                <li>Worked closely with <strong>graphic designers, SEO specialists, and
+                                                        the team leader</strong> to finalize and implement section
+                                                    designs aligned with project requirements.</li>
+                                                <li>Conducted cross-browser testing and optimized assets (image
+                                                    compression, caching), improving load times by <strong>30% faster
+                                                        load times.</strong></li>
+                                                <li>Optimized websites to achieve higher <strong>Google PageSpeed
+                                                        performance scores</strong>, improving SEO rankings and user
+                                                    experience.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            <div> <strong class="d-block fw-bold fs-5">Frontend Developer | <span
+                                                        class="fw-bold fs-6"> Yellowblock Software Solution </span><a
+                                                        href="https://yellowblock.net/" target="_blank"
+                                                        aria-label="yellowblock navigation"><img
+                                                            src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
+                                                            srcset=""></a></strong>
+
+                                                <span> S.R Nagar, Telangana </span>
+                                                <small
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
+                                                    2022 – October 2023</small>
+                                            </div>
+                                        </button>
+                                    </h3>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Developed a dynamic cryptocurrency web application using <strong>
+                                                        React.js, Redux, and React Router.</strong></li>
+                                                <li>Translated static HTML and Bootstrap designs into <strong>
+                                                        responsive</strong>, reusable React components.</li>
+                                                <li>Integrated <strong> RESTful APIs using Axios</strong> and optimized
+                                                    state management with Redux Toolkit.</li>
+                                                <li>Implemented <strong>code splitting and lazy loading to improve
+                                                        application performance</strong> and reduce initial load time.
+                                                </li>
+                                                <li>Collaborated with <strong>backend and design teams</strong> to
+                                                    ensure seamless API integration and user-friendly UI/UX.</li>
+                                                <li>Actively participated in weekly sprint planning, contributing to
+                                                    task estimation and feature delivery.</li>
+                                                <li>Regularly committed code to Git repositories and submitted
+                                                    <strong>pull requests</strong> for review by mentors and team leads,
+                                                    ensuring high-quality and maintainable code.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            <div> <strong class="d-block fw-bold fs-5">SEO Internship | <span
+                                                        class="fw-bold fs-6"> Green Gold Animation </span><a
+                                                        href="https://www.greengold.tv/" target="_blank"
+                                                        aria-label="greengold navigation"><img
+                                                            src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
+                                                            srcset=""></a></strong>
+                                                <span> Karkhana, Telangana </span>
+                                                <small
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">February
+                                                    2021 - June 2021</small>
+                                            </div>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <div>
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                <div><strong class="d-block fw-bold fs-5">Sales Executive | <span
+                                                            class="fw-bold fs-6"> Karvy Stock Broking Ltd </span><a
+                                                            href="http://www.karvyonline.com/" target="_blank"
+                                                            aria-label="Karvy navigation"><img
+                                                                src="./images/box-arrow-in-up-right__black_logo.svg"
+                                                                alt="" srcset=""></a></strong>
+                                                    <span> Nanakramguda, Telangana </span>
+                                                    <small
+                                                        class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
+                                                        2019 - December 2019</small>
+                                                </div>
+                                            </button>
+                                            </h2>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+
+        <section id="skills" class="container-fluid my-5">
+            <div class="py-lg-5 pt-5 container">
+                <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Skills</span></h2>
+                <div class="bd-example-snippet bd-code-snippet">
+                    <div class="bd-example m-0 border-0 py-5 text-center">
+                        <nav class="d-flex justify-content-center py-3">
+                            <div class="nav nav-tabs mb-3 " id="nav-tab" role="tablist">
+                                <button class="nav-link skill-link active fw-bold px-lg-5" id="nav-home-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab"
+                                    aria-controls="nav-home" aria-selected="true" tabindex="-1">FrontEnd</button>
+                                <button class="nav-link skill-link fw-bold px-lg-5" id="nav-profile-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab"
+                                    aria-controls="nav-profile" aria-selected="false" tabindex="-1">BackEnd</button>
+                                <button class="nav-link skill-link fw-bold px-lg-5" id="nav-contact-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+                                    aria-controls="nav-contact" aria-selected="false">Tool</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content py-5" id="nav-tabContent">
+                            <div class="tab-pane fade active show" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/react_logo.svg" alt="React Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">React JS</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/javascript_logo.svg" alt="JavaScript Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">JavaScript</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/typescript_logo.svg" alt="TypeScript Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">TypeScript</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/html_logo.svg" alt="HTML Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">HTML</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/css_logo.svg" alt="CSS Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">CSS</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/bootstrap_logo.svg" alt="Bootstrap Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">BootStrap</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/redux_logo.svg" alt="Redux Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Redux</h3>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/ant_design_logo.svg" alt="Ant Design Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Ant Design</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/tailwind_logo.svg" alt="Tailwind Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Tailwind CSS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/nextJS_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Next JS</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/expressjs_logo.svg" alt="Express Js Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Express JS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/MongoDB_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Mongo DB</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/wordpress_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Wordpress</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/nodejs_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Node JS</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/git_logo.svg" alt="Git Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Git VCS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/github_logo.svg" alt="GitHub Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">GitHub</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/figma_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Figma</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/postman_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Postman</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/canva_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Canva</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="text-black px-4 ">
+                <div class="py-lg-5 py-5  container ">
+                    <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Projects</span>
+                        Made
+                    </h2>
+                    <div class="col-md-8 mx-auto">
+                        <p class="fs-5 mb-4 text-center">Welcome to my web development portfolio! Explore a collection
+                            of
+                            projects showcasing <br>
+                            my expertise in front-end development.</p>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-lg-5 ">
+                        <div class="col px-0 px-lg-2">
+                            <div class="card shadow-sm">
+                                <svg aria-label="Javascript Projects: Thumbnail" height="225"
+                                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/javascriptproject.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;">
+                                    <title>Javascript Projects</title>
+                                </svg>
+                                <div class="card-body">
+                                    <h3 class="fw-bold">Javascript Projects</h3>
+                                    <p class="card-text text-black">To Showcasing all my major JavaScript projects
+                                        built
+                                        to demonstrate core concepts and practical web applications.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a
+                                                href="1234"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo"
+                                                    width="22" height="22" class="bi" /></a> <a
+                                                href="1234"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
+                                                    height="22" /></a> </div>
+                                        <small class="badge text-bg-dark rounded-pill">Live</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col px-0 px-lg-2">
+                            <div class="card shadow-sm">
+                                <svg aria-label="React-JS Projects: Thumbnail" height="225"
+                                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/react-js.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                            <title>React-JS Projects</title>
+                        </svg>
+                        <div class=" card-body">
+                                    <h3 class="fw-bold">React JS Projects</h3>
+                                    <p class="card-text text-black">A collection of my React JS projects, built to
+                                        showcase interactive UIs and efficient component-driven development.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a
+                                                href="1234"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo"
+                                                    width="22" height="22" class="bi" /></a> <a
+                                                href="1234"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
+                                                    height="22" /></a>
+                                        </div>
+                                        <small class="badge text-bg-dark rounded-pill">Live</small>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col px-0 px-lg-2">
+                        <div class="card shadow-sm">
+                            <svg aria-label="Next JS: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
+                                role="img" width="100%" class="rounded-top"
+                                style="background-image: url('./images/nextjsprojects.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                            <title>Next JS</title>
+                        </svg>
+                        <div class=" card-body">
+                                <h3 class="fw-bold">Next JS</h3>
+                                <p class="card-text text-black">basic project created to explore essential features
+                                    like
+                                    page routing, components & rendering. This project reflects my learning journey in
+                                    modern web development.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group"> <a
+                                            href="1234"
+                                            target="_blank" type="button"
+                                            class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                            style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                            <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
+                                                height="22" class="bi" /></a> <a
+                                            href="1234"
+                                            target="_blank" type="button"
+                                            class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                            style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                            <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                                class="bi" /></a>
+                                    </div>
+                                    <small class="badge text-bg-dark rounded-pill">Live</small>
+                                </div>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col px-0 px-lg-2">
+                    <div class="card shadow-sm">
+                        <svg aria-label="Ecomerce MERN: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
+                            role="img" width="100%" class="rounded-top"
+                            style="background-image: url('./images/MERN_Stack.webp');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                            <title>Ecomerce MERN</title>
+                        </svg>
+                        <div class=" card-body">
+                            <h3 class="fw-bold">Ecomerce MERN</h3>
+                            <p class="card-text text-black">E-commerce web app built with MERN, showcasing Admin,
+                                User, Cart, and other features in a responsive design.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"> <a href="/" target="_blank" type="button"
+                                        class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                        style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                        <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
+                                            height="22" class="bi" /></a> <a href="/" target="_blank" type="button"
+                                        class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                        style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                        <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                            class="bi" /></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                        </div>
+                        <div class="col px-0 px-lg-2">
+                            <div class="card shadow-sm">
+                                <svg aria-label="Next-Js Blogger: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
+                                    role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/MERN_Stack.webp');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                                        <title>Next-Js Blogger</title>
+                                    </svg>
+                                    <div class=" card-body">
+                                    <h3 class="fw-bold">Next-Js Blogger</h3>
+                                    <p class="card-text text-black">Blogger platform built with Next.js and the MERN stack,
+                                        showcasing end-to-end development from UI to database.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a href="https://next-js-blogger-beta.vercel.app/" target="_blank"
+                                                type="button" class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
+                                                    height="22" class="bi" /></a> <a
+                                                href="12345" target="_blank"
+                                                type="button" class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                                    class="bi" /></a>
+                                        </div>
+                                        <small class="badge text-bg-dark rounded-pill">Live</small>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col px-0 px-lg-2">
+                            <div class="card shadow-sm"> <svg aria-label="Hivespace Website: Thumbnail" height="225"
+                                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/hivespace_website.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                                        <title>Hivespace Website</title>
+                                    </svg>
+                                    <div class=" card-body">
+                                    <h3 class="fw-bold">Hivespace Website</h3>
+                                    <p class="card-text text-black">This project is a Bootstrap-based replica of a co-working
+                                        space
+                                        website, demonstrating responsive layout, utility usage, and UI design skills.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a href="12345"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Demo
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
+                                                    height="22" class="bi" /></a> <a
+                                                href="12345" target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Github
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                                    class="bi" /></a>
+                                        </div>
+                                        <small class="badge text-bg-dark rounded-pill">Live</small>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <div class="text-black px-4 text-center">
+                <div class="py-lg-5 pt-5">
+                    <h2 class="display-5 fw-bold text-black">Get In <span style="color: #14A76C;"> Touch </span></h2>
+                    <div class="col-lg-10  col-12 mx-auto">
+                        <p class="fs-5 mb-4">I'd love to hear from you! If you have any questions, comments or,<br>
+                            feedback, please use the form below.</p>
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="col-md-6 text-center text-lg-start">
+                                <img src="./images/customer-support.avif" class="card-img-top" alt="Contact Me" />
+                            </div>
+                            <div class="col-md-6 mx-auto col-lg-5">                                     
+                                <a href="mailto:nehareddy315@gmail.com" target="_blank" style="text-decoration: none;">
+    <button class="btn btn-lg text-white icon-link icon-link-hover"
+        style="background: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+        type="button">
+        Reach out to me via email 
+        <img src="./images/box-arrow-up-right_logo.svg" alt="Submit Logo" width="22" height="22" class="bi" />
+    </button>
+</a>
+                        </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="container col-xxl-10 px-4 py-lg-5 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 rounded-4 px-lg-4 shadow-lg "
+                style="background-color: #14A76C;">
+                <div class="col-12 col-sm-8 col-lg-6 mb-lg-5"> <img src="./images/snap_website_fork.avif"
+                        alt="Snap Image" class="d-block mx-lg-auto img-fluid rounded-4" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy"> </div>
+                <div class="col-lg-6 mb-5">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Loved this <span
+                            class="text-white">portfolio?</span></h3>
+                    <p class="lead fw-bold fs-5">Make this <span class="text-white">yours</span> by forking.</p>
+                    <p class="lead text-white fs-5 ">Fork this template on GitHub start building your own portfolio
+                        website.
+                    </p>
+                    <div class="d-lg-grid gap-2 d-lg-flex justify-content-lg-start ">
+                        <a href="" target="_blank"
+                            style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                            class="btn bg-light btn-lg text-black icon-link icon-link-hover" type="submit"><img
+                                src="./images/github_logo.svg" alt="Github Logo" width="22" height="22" class="bi" />
+                            Fork
+                            Now</a>
+                        <a href="#readme" target="_blank"
+                            style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                            class="btn  btn-lg px-4 border-1 border-white text-white icon-link icon-link-hover"
+                            style="border: #14A76C solid 1px;">Visit Repo <img
+                                src="./images/box-arrow-up-right_logo.svg" alt="Navigate Repo Logo" width="22"
+                                height="22" class="bi" /></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="container-fluid bg-dark text-white px-4 px-lg-4 pt-5">
+            <div class="d-flex flex-column flex-sm-row justify-content-center py-4  border-top">
+                <p>Designed with Love by Neha Reddy Gaddam</p>
+            </div>
+        </footer>
+
+        <!-- linkedin section -->
+        <span class="fixed-bottom py-lg-3 px-lg-3 py-2 ">
+            <span class="ms-3">
+                <a class="link-body-emphasis text-decoration-none"
+                    href="https://www.linkedin.com/in/nehary11/"
+                    target="_blank" aria-label="Linkedin_logo">
+                    <img src="./images/linkedin_blue_logo.png" alt="Linkedin Logo" width="50" height="50" />
+            </span>
+        </span>
+    </main>
+    <script>
+        // Initialize all tooltips on the page
+        document.addEventListener("DOMContentLoaded", function () {
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+        });
+    </script>
+    <script rel="preload" src="./assets/js/bootstrap.bundle.min.js" async></script>
+    <script rel="preload" src="./assets/js/index.js" async></script>
+</body>
+
+</html>
